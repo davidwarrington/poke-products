@@ -1,0 +1,23 @@
+{
+  "name": "pokedex-collator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "davidwarrington_strawberry <david.warrington@strawberry.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "fs-extra": "^9.0.0",
+    "ndb": "^1.1.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "run": "node ./build/server"
+  }
+}
